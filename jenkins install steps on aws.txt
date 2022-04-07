@@ -1,0 +1,48 @@
+Jenkins steps:  https://www.linuxteacher.com/how-to-install-jenkins-on-ubuntu-20-04-lts/
+
+Written in Java, Jenkins is an opensource automation server. It is used by developers in automating tasks in the software development cycle. It ships with numerous and handy plugins which help in continuous integration by enabling developers to make the necessary changes to applications before going into production. In this topic, we will install Jenkins on Ubuntu 20.04 LTS, which is the latest Ubuntu version.
+
+In summary, we shall tackle the following:
+
+1: Install Jenkins on ubuntu
+
+2: Starting Jenkins
+
+3: Configuring the firewall
+
+4: Setting up Jenkins
+
+
+
+Step 1: Install Jenkins on ubuntu
+
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+
+another option:  https://www.jenkins.io/blog/2020/07/27/repository-signing-keys-changing/
+
+ sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt update
+sudo apt install openjdk-11-jdk-headless
+ sudo apt install jenkins
+
+sudo systemctl status jenkins
+
+ sudo apt install apache2
+
+
+http://ec2-13-232-51-166.ap-south-1.compute.amazonaws.com:8080/
+
+
+<VirtualHost *:80>
+  ServerName ec2-52-66-145-35.ap-south-1.compute.amazonaws.com
+  ProxyRequests off
+
+  <Proxy *>
+     Order deny,allow
+     Allow from all
+  </Proxy>
+ ProxyPreservehost on
+ Proxypass / https://localhost:8080/
+</VirtualHost>
+

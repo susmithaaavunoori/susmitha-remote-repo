@@ -1,0 +1,38 @@
+Hi Friends good evening 
+
+
+initial days of IT carrer i supported on Datacenter application . we have 20 members team, Team had planned  2 members to support in Dec month last 2 weeks , 
+ all my other team members  planned for vacations, things were went fine until Dec 30th. 
+
+suddenly on Dec 31st  night all applications went down intermetenly due to one of the datacenter  power issue issue, its effected with shock sercute , all Prod application went down intermettelntly.  
+
+we are not able to reachout failed Serves in datacenter from remotly, as am not sure what is the issue at that time .. 
+
+am was getting scarred , my hands are shaking and trying to reach my team and Managers , no one is reachable, i was totally self conscious that time.  finally my India Head left the call .. i have explanned the issues.
+
+ he said he will be online in 5 mins. but he is not joinned , we have started the P1 Bridge with Incident Managment team.  this is my 1st P1 call.  clients and Mangers jonned the they were on my toes, 
+
+ for the remidiation as 1st step i have started routing the client traffic to Working datacenter for almost 2000 Application . an side i am trying toengage my other colleges for help.
+
+but as it manaul task , its taking  more time then excepted and we missed our agreed SLA, within 2 hours clients escated the issue to Higher Managment .   from the higher managment side every one joinned the call with in 10 mins..
+
+every one asking me status on ETA to fix it , my toune was shaking in call as i was not 100% sure on ETA to fix it,  finally my India IT head manager joinned the call ,  
+
+he was told me in call let your hair down,  he call on my phone for further discussion on ETA and next steps.
+
+he suggested the next steps  and give the target time to fix it ,  he requested Higher Management for exceptional approval on additional time to fix the issues. 
+
+finally my collegue and me worte the parll excution script with help  of existing different script in 20 mins for the task and we have fixed the issue for all the site in 5 hours ..  that  one is one of the memorable day in my support life. 
+
+By the end ,every one in my deparment appriciated me for the support during the critical time. 
+
+
+
+
+
+
+
+
+
+
+
